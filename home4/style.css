@@ -14,21 +14,22 @@
 }
 
 .header ul{
-
 	width: 100%;	
 
 }
 .header ul li{
 	display: inline-block;
-	float: left;
+	/*float: left;*/
 	border: 1px solid #CCCCCC;
 	text-decoration: none;
-	padding: 15px 65px;
+	padding: 15px 3%;
+	text-align: center;
 	background-color: #EDEDED;
-	margin: 0 0;
+	/*margin: 0px;*/
 	font-weight: bold;
 	color: #777777;
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 5px 5px rgba(0,0,0,0.1);
+	width: calc( 100% / 6 - 7%)
 }
 
 .header ul li:hover{
@@ -99,6 +100,10 @@
 	padding: 10px 15px;
 	font-size: 14px; 
 	border: none;
+}
+.news a{
+	text-decoration: none;
+	color: white;
 }
 
 .footer{
