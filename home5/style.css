@@ -60,11 +60,13 @@
 }
 
 .footer{
-	border-top: 1px solid #EEEEEE;
+	border-right: ;r-top: 1px solid #EEEEEE;
 }
 
 .footer p{
+	display: inline-block;
 	margin: 5% 0;
+	font-size: 16px;
 }
 
 .content {
