@@ -45,12 +45,11 @@
 
 .header ul li:first-child {
 	border-top-left-radius:5px;
-	border-bottom-left-radius:5px;
-	
+	border-bottom-left-radius: 5px;
 }
 .header ul li:last-child {
 	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
+	border-bottom-right-radius: 5px;
 }
 
 .markstuff{
